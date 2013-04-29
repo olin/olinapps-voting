@@ -246,40 +246,6 @@ app.get('/SECRETRESULTLINK', function (req, res) {
   });
 });
 
-/*
-app.get('/:id', function (req, res) {
-  db.elections.find({
-    published: true
-  }).sort({date: -1}, function (err, docs) {
-    console.log(docs);
-    res.render('index', {
-      title: 'Olin Voting App',
-      quotes: docs,
-      user: olinapps.user(req)
-    });
-  })
-});
-
-app.del('/:id', function (req, res) {
-  db.elections.update({
-    _id: db.ObjectId(req.body.id),
-    submitter: olinapps.user(req).username
-  }, {
-    $set: {
-      published: false
-    }
-  }, function () {
-    res.redirect('/');
-  })
-})
-
-app.get('/names', function (req, res) {
-  db.elections.distinct('name', function (err, names) {
-    res.json(names);
-  });
-})
-*/
-
 /**
  * Launch
  */
