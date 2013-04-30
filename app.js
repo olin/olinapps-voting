@@ -69,121 +69,30 @@ Array.prototype.randomize = function () {
 
 function getPositions () {
   return {
-    'CORe': {
-      'President': [
-        {
-          name: 'Larissa Little'
-        }
+    '2014': {
+      'Representatives': [
+        { name: 'Noam Rubin' },
+        { name: 'Janaki' },
+        { name: 'Cory Dolphin' },
+        { name: 'Jordyn Burger' }
       ].randomize(),
-      'Vice President': [
-        {
-          name: 'Dan Kearney'
-        },
-      ].randomize(),
-      'Academic Director': [
-        {
-          name: 'Asa Eckert-Erdheim'
-        }
-      ].randomize(),
-      'Intercollegiate Ambassador': [
-        {
-          name: 'David James Pudlo'
-        }
-      ].randomize(),
-      'SEO Finance Minister': [
-        {
-          name: 'Kristoffer Groth'
-        }
+      'Class Activity Reps': [
+        { name: 'Janaki' },
+        { name: 'Noam Rubin' },
+        { name: 'Jordyn Burger' }
       ].randomize(),
     },
-    'SAC': {
-      'Clubs Chair': [
-        {
-          name: 'Trevor Hooton'
-        }
-      ].randomize(),
-      'Activities Chair': [
-        {
-          name: 'Graham Hooton'
-        }
+    '2015': {
+      'Representatives': [
+        { name: 'Brooks' },
+        { name: 'James Nee' },
+        { name: 'Maddie Perry' }
       ].randomize(),
     },
-    'SERV': {
-      'Chair': [
-        {
-          name: 'Ariana Chae'
-        }
-      ].randomize(),
-      'Vice-Chair': [
-        {
-          name: 'Daniel Leong'
-        }
-      ].randomize(),
-      'Manager of Finance and Records': [
-        {
-          name: 'Emily Guthrie'
-        },
-        {
-          name: 'Daniel Leong'
-        }
-      ].randomize(),
-      'General Members (3 elected now, 2 fall)': [
-        {
-          name: 'Amanda Sutherland'
-        },
-        {
-          name: 'Michael Searing'
-        },
-        {
-          name: 'Hayley Hansson'
-        },
-        {
-          name: 'Emily Guthrie'
-        }
-      ].randomize(),
-    },
-    'Honor Board': {
-      'Chair': [
-        {
-          name: 'Chris Joyce'
-        },
-        {
-          name: 'Adam Coppola'
-        },
-        {
-          name: 'Alex Kessler'
-        }
-      ].randomize(),
-      'Vice Chair': [
-        {
-          name: 'Chris Joyce'
-        },
-        {
-          name: 'Adam Coppola'
-        },
-        {
-          name: 'Alex Kessler'
-        }
-      ].randomize(),
-      'General Reps (4 elected now, 2 fall)': [
-        {
-          name: 'Chris Joyce'
-        },
-        {
-          name: 'Adam Coppola'
-        },
-        {
-          name: 'Alex Kessler'
-        },
-        {
-          name: 'Victoria Preston'
-        },
-        {
-          name: 'Shivam Desai'
-        },
-        {
-          name: 'Elizabeth Doyle'
-        }
+    '2016': {
+      'Representatives': [
+        { name: 'Brian' },
+        { name: 'Saarth' }
       ].randomize(),
     }
   }

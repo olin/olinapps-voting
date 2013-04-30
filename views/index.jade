@@ -7,7 +7,7 @@ block content
     .uncheck { color: #bbb; } .uncheck:hover { color: #000; }
 
   div.header(style="text-align: center; max-width: 800px; margin: 15px auto; border: 1px solid #ccc; background: #eee; padding: 10px 15px; border-radius: 10px")
-    h1 Olin SEO Elections 2013
+    h1 Olin Class Rep Elections 2013
     p(style="font-size: 16px") For each position, vote for any and all candidate(s) you feel would <b>excel</b> in that office. The candidate(s) with the highest tally are elected. Any candidate must receive at least 15% of the vote in order to take office.
     p All Olin students who are planning on being campus the following semester are eligible to vote in any Student Experience Organization election.
     p(style="font-style: italic") 
@@ -19,18 +19,16 @@ block content
         | Logout?
 
   if saved
-    div.alert.alert-success(style="text-align: center") Your vote has been saved! You can recast it as often as you'd like before 10PM Wednesday, April 17th.
+    div.alert.alert-success(style="text-align: center") Your vote has been saved! You can recast it as often as you'd like before 10AM Wednesday, May 1st.
   else
-    p(style="text-align: center") Cast your vote below. You can recast it as often as you'd like before 10PM Wednesday, April 17th.
+    p(style="text-align: center") Cast your vote below. You can recast it as often as you'd like before 10AM Wednesday, May 1st.
 
   div.container
     form(method='post')
       .row
         each seo, seoname in positions
-          div.span3
+          div.span4
             h2 #{seoname}
-            p
-              a(href="/packets/" + seoname + ".pdf", style="text-decoration: underline", target="_blank") Click to read the election packet.
             each pos, posname in seo
               div.position(style="margin-bottom: 20px")
                 h4= posname
