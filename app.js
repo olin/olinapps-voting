@@ -76,7 +76,7 @@ function getPositions () {
         { name: 'Cory Dolphin' },
         { name: 'Jordyn Burger' }
       ].randomize(),
-      'Class Activity Reps': [
+      'Senior Class Activity Reps (SCAR)': [
         { name: 'Janaki' },
         { name: 'Noam Rubin' },
         { name: 'Jordyn Burger' }
@@ -133,13 +133,13 @@ app.post('/', function (req, res) {
   });
 })
 
-app.get('/SECRETRESULTLINKRAW', function (req, res) {
+app.get('/SECRETRESULTLINKNEWRAW', function (req, res) {
   db.votes.find(function (err, votes) {
     res.json(votes);
   });
 });
 
-app.get('/SECRETRESULTLINK', function (req, res) {
+app.get('/SECRETRESULTLINKNEW', function (req, res) {
   var poshash = {};
   db.votes.find(function (err, votes) {
     votes.forEach(function (vote) {
